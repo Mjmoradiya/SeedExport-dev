@@ -1,0 +1,1263 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon_lgdt.eot");
+    src: url("../fonts/flaticon_lgdtd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/flaticon_lgdt.woff2") format("woff2"), url("../fonts/flaticon_lgdt.woff") format("woff"), url("../fonts/flaticon_lgdt.ttf") format("truetype"), url("../fonts/flaticon_lgdt.svg#Flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Actual Icons Available in Your Font */
+
+.flaticon-cargo:before {
+    content: "\f101";
+}
+
+.flaticon-ship:before {
+    content: "\f102";
+}
+
+.flaticon-protected:before {
+    content: "\f103";
+}
+
+.flaticon-truck:before {
+    content: "\f104";
+}
+
+.flaticon-train:before {
+    content: "\f105";
+}
+
+.flaticon-oil-train:before {
+    content: "\f106";
+}
+
+.flaticon-crane:before {
+    content: "\f107";
+}
+
+.flaticon-tank-truck:before {
+    content: "\f108";
+}
+
+.flaticon-tank-truck-1:before {
+    content: "\f109";
+}
+
+.flaticon-cargo-1:before {
+    content: "\f10a";
+}
+
+.flaticon-box:before {
+    content: "\f10b";
+}
+
+.flaticon-warehouse:before {
+    content: "\f10c";
+}
+
+.flaticon-forklift:before {
+    content: "\f10d";
+}
+
+.flaticon-container:before {
+    content: "\f10e";
+}
+
+.flaticon-warehouse-1:before {
+    content: "\f10f";
+}
+
+.flaticon-delivery:before {
+    content: "\f110";
+}
+
+.flaticon-delivery-cart:before {
+    content: "\f111";
+}
+
+.flaticon-air-freight:before {
+    content: "\f112";
+}
+
+.flaticon-air-plane:before {
+    content: "\f113";
+}
+
+.flaticon-delivery-man:before {
+    content: "\f114";
+}
+
+.flaticon-global-distribution:before {
+    content: "\f115";
+}
+
+.flaticon-placeholder:before {
+    content: "\f116";
+}
+
+.flaticon-package:before {
+    content: "\f117";
+}
+
+.flaticon-planet-earth:before {
+    content: "\f118";
+}
+
+.flaticon-replacement:before {
+    content: "\f119";
+}
+
+.flaticon-location:before {
+    content: "\f11a";
+}
+
+.flaticon-supplies:before {
+    content: "\f11b";
+}
+
+.flaticon-money:before {
+    content: "\f11c";
+}
+
+.flaticon-parcels:before {
+    content: "\f11d";
+}
+
+.flaticon-parcel:before {
+    content: "\f11e";
+}
+
+.flaticon-support:before {
+    content: "\f11f";
+}
+
+.flaticon-hand-shake:before {
+    content: "\f120";
+}
+
+.flaticon-location-1:before {
+    content: "\f121";
+}
+
+.flaticon-envelope:before {
+    content: "\f122";
+}
+
+.flaticon-time:before {
+    content: "\f123";
+}
+
+.flaticon-telephone:before {
+    content: "\f124";
+}
+
+.flaticon-search:before {
+    content: "\f125";
+}
+
+.flaticon-down:before {
+    content: "\f126";
+}
+
+.flaticon-uptrend:before {
+    content: "\f127";
+}
+
+.flaticon-right-up:before {
+    content: "\f128";
+}
+
+.flaticon-diagonal-arrow:before {
+    content: "\f129";
+}
+
+.flaticon-up-right-arrow:before {
+    content: "\f12a";
+}
+
+.flaticon-check:before {
+    content: "\f12b";
+}
+
+.flaticon-play:before {
+    content: "\f12c";
+}
+
+.flaticon-big-box:before {
+    content: "\f12d";
+}
+
+.flaticon-send:before {
+    content: "\f12e";
+}
+
+.flaticon-down-arrow:before {
+    content: "\f12f";
+}
+
+.flaticon-left-arrow:before {
+    content: "\f130";
+}
+
+.flaticon-right-arrow:before {
+    content: "\f131";
+}
+
+.flaticon-calendar:before {
+    content: "\f132";
+}
+
+.flaticon-calendar-1:before {
+    content: "\f133";
+}
+
+.flaticon-waving-flag:before {
+    content: "\f134";
+}
+
+/* Alternative Icons for Missing Ones - Using Available Icons */
+
+.flaticon-star:before {
+    content: "\f127";
+    /* Using uptrend as star */
+}
+
+.flaticon-eye:before {
+    content: "\f116";
+    /* Using placeholder as eye */
+}
+
+.flaticon-target:before {
+    content: "\f118";
+    /* Using planet-earth as target */
+}
+
+.flaticon-customization:before {
+    content: "\f10b";
+    /* Using box as customization */
+}
+
+.flaticon-shield:before {
+    content: "\f103";
+    /* Using protected as shield */
+}
+
+.flaticon-transparency:before {
+    content: "\f116";
+    /* Using placeholder as transparency */
+}
+
+.flaticon-delivery-truck:before {
+    content: "\f110";
+    /* Using delivery as delivery-truck */
+}
+
+.flaticon-compliance:before {
+    content: "\f103";
+    /* Using protected as compliance */
+}
+
+.flaticon-quality:before {
+    content: "\f127";
+    /* Using uptrend as quality */
+}
+
+.flaticon-customs:before {
+    content: "\f10c";
+    /* Using warehouse as customs */
+}
+
+.flaticon-heart:before {
+    content: "\f120";
+    /* Using hand-shake as heart */
+}
+
+.flaticon-innovation:before {
+    content: "\f127";
+    /* Using uptrend as innovation */
+}
+
+.flaticon-collaboration:before {
+    content: "\f120";
+    /* Using hand-shake as collaboration */
+}
+
+.flaticon-sustainability:before {
+    content: "\f118";
+    /* Using planet-earth as sustainability */
+}
+
+.flaticon-trophy:before {
+    content: "\f127";
+    /* Using uptrend as trophy */
+}
+
+.flaticon-experience:before {
+    content: "\f123";
+    /* Using time as experience */
+}
+
+.flaticon-percentage:before {
+    content: "\f11c";
+    /* Using money as percentage */
+}
+
+.flaticon-team:before {
+    content: "\f120";
+    /* Using hand-shake as team */
+}
+
+.flaticon-phone:before {
+    content: "\f124";
+    /* Using telephone as phone */
+}
+
+.flaticon-whatsapp:before {
+    content: "\f124";
+    /* Using telephone as whatsapp */
+}
+
+.flaticon-menu:before {
+    content: "\f126";
+    /* Using down as menu */
+}
+
+.flaticon-close:before {
+    content: "\f130";
+    /* Using left-arrow as close */
+}
+
+.flaticon-menu-1:before {
+    content: "\f126";
+    /* Using down as menu-1 */
+}
+
+.flaticon-user:before {
+    content: "\f114";
+    /* Using delivery-man as user */
+}
+
+.flaticon-settings:before {
+    content: "\f125";
+    /* Using search as settings */
+}
+
+.flaticon-chart:before {
+    content: "\f127";
+    /* Using uptrend as chart */
+}
+
+.flaticon-graph:before {
+    content: "\f127";
+    /* Using uptrend as graph */
+}
+
+.flaticon-analytics:before {
+    content: "\f127";
+    /* Using uptrend as analytics */
+}
+
+.flaticon-report:before {
+    content: "\f11c";
+    /* Using money as report */
+}
+
+.flaticon-dashboard:before {
+    content: "\f10b";
+    /* Using box as dashboard */
+}
+
+.flaticon-home:before {
+    content: "\f10c";
+    /* Using warehouse as home */
+}
+
+.flaticon-about:before {
+    content: "\f120";
+    /* Using hand-shake as about */
+}
+
+.flaticon-services:before {
+    content: "\f10b";
+    /* Using box as services */
+}
+
+.flaticon-portfolio:before {
+    content: "\f10b";
+    /* Using box as portfolio */
+}
+
+.flaticon-blog:before {
+    content: "\f122";
+    /* Using envelope as blog */
+}
+
+.flaticon-contact:before {
+    content: "\f124";
+    /* Using telephone as contact */
+}
+
+.flaticon-quote:before {
+    content: "\f12e";
+    /* Using send as quote */
+}
+
+.flaticon-testimonial:before {
+    content: "\f120";
+    /* Using hand-shake as testimonial */
+}
+
+.flaticon-review:before {
+    content: "\f127";
+    /* Using uptrend as review */
+}
+
+.flaticon-rating:before {
+    content: "\f127";
+    /* Using uptrend as rating */
+}
+
+.flaticon-award:before {
+    content: "\f127";
+    /* Using uptrend as award */
+}
+
+.flaticon-certificate:before {
+    content: "\f103";
+    /* Using protected as certificate */
+}
+
+.flaticon-badge:before {
+    content: "\f127";
+    /* Using uptrend as badge */
+}
+
+.flaticon-medal:before {
+    content: "\f127";
+    /* Using uptrend as medal */
+}
+
+.flaticon-ribbon:before {
+    content: "\f127";
+    /* Using uptrend as ribbon */
+}
+
+.flaticon-crown:before {
+    content: "\f127";
+    /* Using uptrend as crown */
+}
+
+.flaticon-diamond:before {
+    content: "\f127";
+    /* Using uptrend as diamond */
+}
+
+.flaticon-gem:before {
+    content: "\f127";
+    /* Using uptrend as gem */
+}
+
+.flaticon-precious:before {
+    content: "\f127";
+    /* Using uptrend as precious */
+}
+
+.flaticon-valuable:before {
+    content: "\f11c";
+    /* Using money as valuable */
+}
+
+.flaticon-expensive:before {
+    content: "\f11c";
+    /* Using money as expensive */
+}
+
+.flaticon-luxury:before {
+    content: "\f11c";
+    /* Using money as luxury */
+}
+
+.flaticon-premium:before {
+    content: "\f127";
+    /* Using uptrend as premium */
+}
+
+.flaticon-exclusive:before {
+    content: "\f127";
+    /* Using uptrend as exclusive */
+}
+
+.flaticon-elite:before {
+    content: "\f127";
+    /* Using uptrend as elite */
+}
+
+.flaticon-vip:before {
+    content: "\f127";
+    /* Using uptrend as vip */
+}
+
+.flaticon-priority:before {
+    content: "\f127";
+    /* Using uptrend as priority */
+}
+
+.flaticon-fast:before {
+    content: "\f128";
+    /* Using right-up as fast */
+}
+
+.flaticon-quick:before {
+    content: "\f128";
+    /* Using right-up as quick */
+}
+
+.flaticon-rapid:before {
+    content: "\f128";
+    /* Using right-up as rapid */
+}
+
+.flaticon-swift:before {
+    content: "\f128";
+    /* Using right-up as swift */
+}
+
+.flaticon-speedy:before {
+    content: "\f128";
+    /* Using right-up as speedy */
+}
+
+.flaticon-express:before {
+    content: "\f128";
+    /* Using right-up as express */
+}
+
+.flaticon-urgent:before {
+    content: "\f128";
+    /* Using right-up as urgent */
+}
+
+.flaticon-immediate:before {
+    content: "\f128";
+    /* Using right-up as immediate */
+}
+
+.flaticon-instant:before {
+    content: "\f128";
+    /* Using right-up as instant */
+}
+
+.flaticon-real-time:before {
+    content: "\f123";
+    /* Using time as real-time */
+}
+
+.flaticon-live:before {
+    content: "\f123";
+    /* Using time as live */
+}
+
+.flaticon-online:before {
+    content: "\f115";
+    /* Using global-distribution as online */
+}
+
+.flaticon-digital:before {
+    content: "\f115";
+    /* Using global-distribution as digital */
+}
+
+.flaticon-virtual:before {
+    content: "\f115";
+    /* Using global-distribution as virtual */
+}
+
+.flaticon-cloud:before {
+    content: "\f115";
+    /* Using global-distribution as cloud */
+}
+
+.flaticon-web:before {
+    content: "\f115";
+    /* Using global-distribution as web */
+}
+
+.flaticon-internet:before {
+    content: "\f115";
+    /* Using global-distribution as internet */
+}
+
+.flaticon-network:before {
+    content: "\f115";
+    /* Using global-distribution as network */
+}
+
+.flaticon-connection:before {
+    content: "\f115";
+    /* Using global-distribution as connection */
+}
+
+.flaticon-link:before {
+    content: "\f115";
+    /* Using global-distribution as link */
+}
+
+.flaticon-chain:before {
+    content: "\f115";
+    /* Using global-distribution as chain */
+}
+
+.flaticon-bond:before {
+    content: "\f120";
+    /* Using hand-shake as bond */
+}
+
+.flaticon-relationship:before {
+    content: "\f120";
+    /* Using hand-shake as relationship */
+}
+
+.flaticon-partnership:before {
+    content: "\f120";
+    /* Using hand-shake as partnership */
+}
+
+.flaticon-alliance:before {
+    content: "\f120";
+    /* Using hand-shake as alliance */
+}
+
+.flaticon-union:before {
+    content: "\f120";
+    /* Using hand-shake as union */
+}
+
+.flaticon-agreement:before {
+    content: "\f120";
+    /* Using hand-shake as agreement */
+}
+
+.flaticon-contract:before {
+    content: "\f120";
+    /* Using hand-shake as contract */
+}
+
+.flaticon-deal:before {
+    content: "\f120";
+    /* Using hand-shake as deal */
+}
+
+.flaticon-negotiation:before {
+    content: "\f120";
+    /* Using hand-shake as negotiation */
+}
+
+.flaticon-discussion:before {
+    content: "\f120";
+    /* Using hand-shake as discussion */
+}
+
+.flaticon-meeting:before {
+    content: "\f120";
+    /* Using hand-shake as meeting */
+}
+
+.flaticon-conference:before {
+    content: "\f120";
+    /* Using hand-shake as conference */
+}
+
+.flaticon-presentation:before {
+    content: "\f120";
+    /* Using hand-shake as presentation */
+}
+
+.flaticon-seminar:before {
+    content: "\f120";
+    /* Using hand-shake as seminar */
+}
+
+.flaticon-workshop:before {
+    content: "\f120";
+    /* Using hand-shake as workshop */
+}
+
+.flaticon-training:before {
+    content: "\f120";
+    /* Using hand-shake as training */
+}
+
+.flaticon-education:before {
+    content: "\f120";
+    /* Using hand-shake as education */
+}
+
+.flaticon-learning:before {
+    content: "\f120";
+    /* Using hand-shake as learning */
+}
+
+.flaticon-knowledge:before {
+    content: "\f120";
+    /* Using hand-shake as knowledge */
+}
+
+.flaticon-expertise:before {
+    content: "\f120";
+    /* Using hand-shake as expertise */
+}
+
+.flaticon-skill:before {
+    content: "\f120";
+    /* Using hand-shake as skill */
+}
+
+.flaticon-ability:before {
+    content: "\f120";
+    /* Using hand-shake as ability */
+}
+
+.flaticon-capability:before {
+    content: "\f120";
+    /* Using hand-shake as capability */
+}
+
+.flaticon-competence:before {
+    content: "\f120";
+    /* Using hand-shake as competence */
+}
+
+.flaticon-proficiency:before {
+    content: "\f120";
+    /* Using hand-shake as proficiency */
+}
+
+.flaticon-mastery:before {
+    content: "\f120";
+    /* Using hand-shake as mastery */
+}
+
+.flaticon-excellence:before {
+    content: "\f127";
+    /* Using uptrend as excellence */
+}
+
+.flaticon-perfection:before {
+    content: "\f127";
+    /* Using uptrend as perfection */
+}
+
+.flaticon-accuracy:before {
+    content: "\f127";
+    /* Using uptrend as accuracy */
+}
+
+.flaticon-precision:before {
+    content: "\f127";
+    /* Using uptrend as precision */
+}
+
+.flaticon-exactness:before {
+    content: "\f127";
+    /* Using uptrend as exactness */
+}
+
+.flaticon-reliability:before {
+    content: "\f103";
+    /* Using protected as reliability */
+}
+
+.flaticon-dependability:before {
+    content: "\f103";
+    /* Using protected as dependability */
+}
+
+.flaticon-trustworthiness:before {
+    content: "\f103";
+    /* Using protected as trustworthiness */
+}
+
+.flaticon-credibility:before {
+    content: "\f103";
+    /* Using protected as credibility */
+}
+
+.flaticon-authenticity:before {
+    content: "\f103";
+    /* Using protected as authenticity */
+}
+
+.flaticon-genuineness:before {
+    content: "\f103";
+    /* Using protected as genuineness */
+}
+
+.flaticon-legitimacy:before {
+    content: "\f103";
+    /* Using protected as legitimacy */
+}
+
+.flaticon-validity:before {
+    content: "\f103";
+    /* Using protected as validity */
+}
+
+.flaticon-verification:before {
+    content: "\f12b";
+    /* Using check as verification */
+}
+
+.flaticon-confirmation:before {
+    content: "\f12b";
+    /* Using check as confirmation */
+}
+
+.flaticon-approval:before {
+    content: "\f12b";
+    /* Using check as approval */
+}
+
+.flaticon-endorsement:before {
+    content: "\f12b";
+    /* Using check as endorsement */
+}
+
+.flaticon-recommendation:before {
+    content: "\f12b";
+    /* Using check as recommendation */
+}
+
+.flaticon-suggestion:before {
+    content: "\f12b";
+    /* Using check as suggestion */
+}
+
+.flaticon-advice:before {
+    content: "\f12b";
+    /* Using check as advice */
+}
+
+.flaticon-guidance:before {
+    content: "\f12b";
+    /* Using check as guidance */
+}
+
+.flaticon-direction:before {
+    content: "\f131";
+    /* Using right-arrow as direction */
+}
+
+.flaticon-instruction:before {
+    content: "\f12b";
+    /* Using check as instruction */
+}
+
+.flaticon-tutorial:before {
+    content: "\f12b";
+    /* Using check as tutorial */
+}
+
+.flaticon-guide:before {
+    content: "\f12b";
+    /* Using check as guide */
+}
+
+.flaticon-manual:before {
+    content: "\f12b";
+    /* Using check as manual */
+}
+
+.flaticon-handbook:before {
+    content: "\f12b";
+    /* Using check as handbook */
+}
+
+.flaticon-reference:before {
+    content: "\f12b";
+    /* Using check as reference */
+}
+
+.flaticon-resource:before {
+    content: "\f10b";
+    /* Using box as resource */
+}
+
+.flaticon-material:before {
+    content: "\f10b";
+    /* Using box as material */
+}
+
+.flaticon-content:before {
+    content: "\f10b";
+    /* Using box as content */
+}
+
+.flaticon-information:before {
+    content: "\f122";
+    /* Using envelope as information */
+}
+
+.flaticon-data:before {
+    content: "\f127";
+    /* Using uptrend as data */
+}
+
+.flaticon-statistics:before {
+    content: "\f127";
+    /* Using uptrend as statistics */
+}
+
+.flaticon-numbers:before {
+    content: "\f11c";
+    /* Using money as numbers */
+}
+
+.flaticon-figures:before {
+    content: "\f11c";
+    /* Using money as figures */
+}
+
+.flaticon-calculations:before {
+    content: "\f11c";
+    /* Using money as calculations */
+}
+
+.flaticon-math:before {
+    content: "\f11c";
+    /* Using money as math */
+}
+
+.flaticon-formula:before {
+    content: "\f11c";
+    /* Using money as formula */
+}
+
+.flaticon-equation:before {
+    content: "\f11c";
+    /* Using money as equation */
+}
+
+.flaticon-algorithm:before {
+    content: "\f11c";
+    /* Using money as algorithm */
+}
+
+.flaticon-process:before {
+    content: "\f127";
+    /* Using uptrend as process */
+}
+
+.flaticon-procedure:before {
+    content: "\f127";
+    /* Using uptrend as procedure */
+}
+
+.flaticon-method:before {
+    content: "\f127";
+    /* Using uptrend as method */
+}
+
+.flaticon-technique:before {
+    content: "\f127";
+    /* Using uptrend as technique */
+}
+
+.flaticon-approach:before {
+    content: "\f127";
+    /* Using uptrend as approach */
+}
+
+.flaticon-strategy:before {
+    content: "\f127";
+    /* Using uptrend as strategy */
+}
+
+.flaticon-plan:before {
+    content: "\f127";
+    /* Using uptrend as plan */
+}
+
+.flaticon-scheme:before {
+    content: "\f127";
+    /* Using uptrend as scheme */
+}
+
+.flaticon-blueprint:before {
+    content: "\f127";
+    /* Using uptrend as blueprint */
+}
+
+.flaticon-design:before {
+    content: "\f127";
+    /* Using uptrend as design */
+}
+
+.flaticon-layout:before {
+    content: "\f127";
+    /* Using uptrend as layout */
+}
+
+.flaticon-structure:before {
+    content: "\f10c";
+    /* Using warehouse as structure */
+}
+
+.flaticon-framework:before {
+    content: "\f10c";
+    /* Using warehouse as framework */
+}
+
+.flaticon-system:before {
+    content: "\f10c";
+    /* Using warehouse as system */
+}
+
+.flaticon-platform:before {
+    content: "\f10c";
+    /* Using warehouse as platform */
+}
+
+.flaticon-infrastructure:before {
+    content: "\f10c";
+    /* Using warehouse as infrastructure */
+}
+
+.flaticon-foundation:before {
+    content: "\f10c";
+    /* Using warehouse as foundation */
+}
+
+.flaticon-base:before {
+    content: "\f10c";
+    /* Using warehouse as base */
+}
+
+.flaticon-ground:before {
+    content: "\f10c";
+    /* Using warehouse as ground */
+}
+
+.flaticon-root:before {
+    content: "\f10c";
+    /* Using warehouse as root */
+}
+
+.flaticon-source:before {
+    content: "\f10c";
+    /* Using warehouse as source */
+}
+
+.flaticon-origin:before {
+    content: "\f10c";
+    /* Using warehouse as origin */
+}
+
+.flaticon-beginning:before {
+    content: "\f10c";
+    /* Using warehouse as beginning */
+}
+
+.flaticon-start:before {
+    content: "\f10c";
+    /* Using warehouse as start */
+}
+
+.flaticon-launch:before {
+    content: "\f128";
+    /* Using right-up as launch */
+}
+
+.flaticon-initiate:before {
+    content: "\f128";
+    /* Using right-up as initiate */
+}
+
+.flaticon-commence:before {
+    content: "\f128";
+    /* Using right-up as commence */
+}
+
+.flaticon-begin:before {
+    content: "\f128";
+    /* Using right-up as begin */
+}
+
+.flaticon-create:before {
+    content: "\f128";
+    /* Using right-up as create */
+}
+
+.flaticon-build:before {
+    content: "\f10c";
+    /* Using warehouse as build */
+}
+
+.flaticon-construct:before {
+    content: "\f10c";
+    /* Using warehouse as construct */
+}
+
+.flaticon-develop:before {
+    content: "\f127";
+    /* Using uptrend as develop */
+}
+
+.flaticon-grow:before {
+    content: "\f127";
+    /* Using uptrend as grow */
+}
+
+.flaticon-expand:before {
+    content: "\f127";
+    /* Using uptrend as expand */
+}
+
+.flaticon-increase:before {
+    content: "\f127";
+    /* Using uptrend as increase */
+}
+
+.flaticon-enhance:before {
+    content: "\f127";
+    /* Using uptrend as enhance */
+}
+
+.flaticon-improve:before {
+    content: "\f127";
+    /* Using uptrend as improve */
+}
+
+.flaticon-upgrade:before {
+    content: "\f127";
+    /* Using uptrend as upgrade */
+}
+
+.flaticon-advance:before {
+    content: "\f127";
+    /* Using uptrend as advance */
+}
+
+.flaticon-progress:before {
+    content: "\f127";
+    /* Using uptrend as progress */
+}
+
+.flaticon-evolution:before {
+    content: "\f127";
+    /* Using uptrend as evolution */
+}
+
+.flaticon-transformation:before {
+    content: "\f127";
+    /* Using uptrend as transformation */
+}
+
+.flaticon-change:before {
+    content: "\f127";
+    /* Using uptrend as change */
+}
+
+.flaticon-modification:before {
+    content: "\f127";
+    /* Using uptrend as modification */
+}
+
+.flaticon-adjustment:before {
+    content: "\f127";
+    /* Using uptrend as adjustment */
+}
+
+.flaticon-adaptation:before {
+    content: "\f127";
+    /* Using uptrend as adaptation */
+}
+
+.flaticon-flexibility:before {
+    content: "\f127";
+    /* Using uptrend as flexibility */
+}
+
+.flaticon-versatility:before {
+    content: "\f127";
+    /* Using uptrend as versatility */
+}
+
+.flaticon-diversity:before {
+    content: "\f127";
+    /* Using uptrend as diversity */
+}
+
+.flaticon-variety:before {
+    content: "\f127";
+    /* Using uptrend as variety */
+}
+
+.flaticon-selection:before {
+    content: "\f125";
+    /* Using search as selection */
+}
+
+.flaticon-choice:before {
+    content: "\f125";
+    /* Using search as choice */
+}
+
+.flaticon-option:before {
+    content: "\f125";
+    /* Using search as option */
+}
+
+.flaticon-alternative:before {
+    content: "\f125";
+    /* Using search as alternative */
+}
+
+.flaticon-substitute:before {
+    content: "\f119";
+    /* Using replacement as substitute */
+}
+
+.flaticon-replacement:before {
+    content: "\f119";
+}
+
+.flaticon-backup:before {
+    content: "\f103";
+    /* Using protected as backup */
+}
+
+.flaticon-reserve:before {
+    content: "\f103";
+    /* Using protected as reserve */
+}
+
+.flaticon-storage:before {
+    content: "\f10c";
+    /* Using warehouse as storage */
+}
+
+.flaticon-shopping-cart:before {
+    content: "\f111";
+    /* Using delivery-cart */
+}
+
+.flaticon-credit-card:before {
+    content: "\f11c";
+    /* Using money */
+}
+
+.flaticon-passport:before {
+    content: "\f103";
+    /* Using protected */
+}
