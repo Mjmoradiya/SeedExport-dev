@@ -8179,6 +8179,9 @@ textarea {
     text-transform: uppercase;
     color: transparent;
     -webkit-text-stroke: 1.5px var(--tg-body-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
 }
 
 @media (max-width: 1199.98px) {
