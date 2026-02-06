@@ -8170,6 +8170,7 @@ textarea {
     margin-right: 20px;
     display: inline;
     line-height: 1;
+    text-shadow: 0px 0px 6px #00b3a4;
 }
 
 .marquee__item a {
@@ -8177,8 +8178,8 @@ textarea {
     font-weight: 800;
     letter-spacing: 5px;
     text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1.5px var(--tg-body-color);
+    color: var(--tg-theme-primary);
+    -webkit-text-stroke: 1.5px var(--tg-theme-primary);
     display: inline-flex;
     align-items: center;
     gap: 20px;
