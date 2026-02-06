@@ -3,7 +3,7 @@
 /* Container Service Highlight */
 .container-service-highlight {
     background: linear-gradient(135deg, rgba(58, 146, 205, 0.08) 0%, rgba(58, 146, 205, 0.04) 100%);
-    border-left: 4px solid #3a92cd;
+    border-left: 4px solid #00B3A4;
     padding: 25px;
     border-radius: 8px;
     position: relative;
@@ -65,19 +65,19 @@
     font-weight: 600;
     margin-right: 0.5rem;
     transition: all 0.2s ease-in-out;
-    border: 1px solid #3a92cd;
-    color: #3a92cd;
+    border: 1px solid #00B3A4;
+    color: #00B3A4;
     background-color: white;
 }
 
 .request__nav .nav-link.active {
-    background-color: #3a92cd;
+    background-color: #00B3A4;
     color: white;
 }
 
 .request__nav .nav-link:hover {
     background-color: #e6f4fc;
-    color: #3a92cd;
+    color: #00B3A4;
 }
 
 .tab-form {
@@ -93,7 +93,7 @@
     font-weight: 700;
     margin-top: 1.5rem;
     margin-bottom: 0.7rem;
-    color: #3a92cd;
+    color: #00B3A4;
     display: block;
 }
 
@@ -114,7 +114,7 @@
 
 .request__form input:focus,
 .request__form select:focus {
-    border-color: #3a92cd;
+    border-color: #00B3A4;
     outline: none;
 }
 
@@ -155,7 +155,7 @@
 
 /* Work Area / How It Works Section */
 .work__area {
-    background: linear-gradient(135deg, #3a92cd 0%, #2c7bb5 100%);
+    background: linear-gradient(135deg, #00B3A4 0%, #2c7bb5 100%);
     display: flex;
     align-items: center;
     position: relative;
@@ -280,7 +280,7 @@
 
 .step-icon {
     font-size: 2.2rem;
-    color: #3a92cd;
+    color: #00B3A4;
     transition: all 0.3s ease;
 }
 

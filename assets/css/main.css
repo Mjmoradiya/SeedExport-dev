@@ -51,9 +51,9 @@
     --tg-heading-line-height: 1.2;
     --tg-body-color: #666666;
     --tg-heading-color: #000038;
-    --tg-theme-primary: #3a92cd;
+    --tg-theme-primary: #00B3A4;
     --tg-theme-primary-two: #d70006;
-    --tg-theme-secondary: #29ABE2;
+    --tg-theme-secondary: #009C8F;
     --tg-color-dark-blue: #0E104B;
     --tg-color-dark-blue-two: #001B31;
     --tg-color-dark-blue-three: #0F2C44;
@@ -2357,7 +2357,7 @@ textarea {
 .counter__icon {
     font-size: 70px;
     line-height: 0;
-    color: #29ABE2;
+    color: #009C8F;
 }
 
 @media (max-width: 1199.98px) {
@@ -3094,7 +3094,7 @@ textarea {
 }
 
 .tgmenu__wrap .logo img {
-    max-height: 40px;
+    max-height: 80px;
 }
 
 .tgmenu__nav {
@@ -13317,7 +13317,7 @@ blockquote>p {
 }
 
 .footer__logo img {
-    max-height: 50px;
+    max-height: 130px;
 }
 
 .footer__content p {
