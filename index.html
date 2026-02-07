@@ -54,7 +54,7 @@
                         <ul class="tg-header__top-info left-side list-wrap">
                             <li><i class="fas fa-map-marker-alt"></i>Surat, Gujrat, India</li>
                             <li><i class="fas fa-envelope"></i><a
-                                    href="mailto:gtpinternational@gmail.com">gtpinternational@gmail.com</a></li>
+                                    href="mailto:gtpinternational1@gmail.com">gtpinternational1@gmail.com</a></li>
                             <li><i class="far fa-clock"></i>Mon – Sun: 9.00 am – 8.00pm</li>
                         </ul>
                     </div>
@@ -322,7 +322,7 @@
                 </div>
                 <div class="contact-list mb-30">
                     <h4><i class="fas fa-envelope me-2"></i> Email Address</h4>
-                    <p class="ms-4">gtpinternational@gmail.com</p>
+                    <p class="ms-4">gtpinternational1@gmail.com</p>
                 </div>
             </div>
             <div class="offCanvas__social-icon mt-30">
@@ -906,7 +906,11 @@
                                     <!-- Carrying Tab -->
                                     <div class="tab-pane fade show active tab-form" id="carrying-tab-pane"
                                         role="tabpanel" aria-labelledby="carrying-tab" tabindex="0">
-                                        <form id="quoteForm" class="request__form">
+                                        <form action="https://formsubmit.co/gtpinternational1@gmail.com" method="POST" id="quoteForm" class="request__form">
+                                            <input type="hidden" name="_captcha" value="false">
+                                            <input type="hidden" name="_subject" value="New Quote Request From Website">
+                                            <input type="hidden" name="_next" value="https://gtpinternational.in">
+
                                             <div class="">
                                                 <div class="alert alert-success fw-bold">
                                                     <i class="fas fa-boxes"></i> We handle everything – from
@@ -942,12 +946,7 @@
                                                             placeholder="Product Name*" required>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="file" name="photo" class="form-control"
-                                                            accept="image/*" placeholder="Photo">
-                                                    </div>
-                                                </div>
+
                                                 <div class="col-lg-4 col-md-6 mb-3">
                                                     <div class="form-grp">
                                                         <select name="freight_type" class="form-control" required>
@@ -1425,32 +1424,6 @@
     <!-- footer-area-end -->
 
     <script src="/assets/js/custom.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-
-<script>
-(function(){
-  emailjs.init("bmP1RjGenzdMXfQYa");
-})();
-
-document.getElementById("quoteForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  emailjs.sendForm(
-    "service_lv26hnl",
-    "template_nytm6g9",
-    this
-  )
-  .then(function() {
-    alert("Request sent successfully!");
-  })
-  .catch(function(error) {
-    console.log("FAILED...", error);
-    alert("Error: " + JSON.stringify(error));
-  });
-});
-</script>
-
-
-
+    
 </body>
 </html>

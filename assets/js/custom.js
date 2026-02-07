@@ -2,7 +2,9 @@
  * Custom JavaScript for Seeds Exporter Website
  */
 
-// Request Form Submission Handler
+// Request Form Submission Handler - DISABLED
+// This was interfering with FormSubmit. The form now submits directly to FormSubmit.
+/*
 $(function () {
     $('.request__form').on('submit', function (e) {
         e.preventDefault();
@@ -35,6 +37,7 @@ $(function () {
         });
     });
 });
+*/
 
 // Enhanced touch support for mobile devices
 document.addEventListener('DOMContentLoaded', function () {
