@@ -650,7 +650,7 @@
                             </div>
                             <div class="choose__content-bottom">
                                 <div class="left-side">
-                                    <p style="text-align: justify;">At HAPPY EXPORT, we understand the unique
+                                    <p style="text-align: justify;">At GTPinternational EXPORT, we understand the unique
                                         requirements of global markets. Our expert team specializes in sourcing,
                                         processing, and exporting premium quality agricultural products including Cumin
                                         Seeds, Isabgol Husk Powder, Isabgol Husk, Isabgol Seeds, Dehydrated Onion, and
@@ -906,12 +906,8 @@
                                     <!-- Carrying Tab -->
                                     <div class="tab-pane fade show active tab-form" id="carrying-tab-pane"
                                         role="tabpanel" aria-labelledby="carrying-tab" tabindex="0">
-                                        <form action="#" class="request__form" enctype="multipart/form-data">
+                                        <form id="quoteForm" class="request__form">
                                             <div class="">
-                                                <!-- <div class="alert alert-info fw-bold">
-											<i class="fas fa-truck"></i>
-											We only handle the logistics part of your import!
-										</div> -->
                                                 <div class="alert alert-success fw-bold">
                                                     <i class="fas fa-boxes"></i> We handle everything – from
                                                     sourcing to delivery at your doorstep!
@@ -1022,68 +1018,7 @@
                                     <!-- Done Tab -->
                                     <div class="tab-pane fade tab-form" id="done-tab-pane" role="tabpanel"
                                         aria-labelledby="done-tab" tabindex="0">
-                                        <form action="#" class="request__form" enctype="multipart/form-data">
-                                            <div class="">
-                                                <div class="alert alert-success fw-bold">
-                                                    <i class="fas fa-boxes"></i> You choose the product, we handle
-                                                    the rest – from sourcing to delivery in India!<br>
-                                                    <!-- <span class="d-block mt-1">“From Factory to Your Door – We Handle It All!”</span>
-											<span class="d-block mt-1">“China to India: Sourcing + Shipping + Customs + Door Delivery – All in One”</span> -->
-                                                </div>
-                                            </div>
-                                            <span class="title">Personal Data</span>
-                                            <div class="row gutter-20">
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="text" name="name" class="form-control"
-                                                            placeholder="Name*" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="email" name="email" class="form-control"
-                                                            placeholder="Email*" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="text" name="phone" class="form-control"
-                                                            placeholder="Phone*" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <span class="title">Shipment Data</span>
-                                            <div class="row gutter-20">
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="file" name="product_photo" class="form-control"
-                                                            accept="image/*" placeholder="Product Photo">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="text" name="product_description"
-                                                            class="form-control" placeholder="Product Description*"
-                                                            required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="number" name="target_price" class="form-control"
-                                                            placeholder="Target Price (INR)*" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4 col-md-6 mb-3">
-                                                    <div class="form-grp">
-                                                        <input type="number" name="moq" class="form-control"
-                                                            placeholder="MOQ (Minimum Order Quantity)*" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <button type="submit" class="btn btn-success w-100 mt-3">Request a
-                                                Quote</button>
-                                            <div class="request-response mt-3"></div>
-                                        </form>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -1405,7 +1340,7 @@
                                     </li>
                                     <li>
                                         <i class="fas fa-phone"></i>
-                                        <a href="tel:9724670491">(+91) 97246 70491</a>
+                                        <a href="tel:9724670491">+91 9724670491</a>
                                     </li>
                                     <li>
                                         <i class="far fa-clock"></i>
@@ -1490,6 +1425,32 @@
     <!-- footer-area-end -->
 
     <script src="/assets/js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+  emailjs.init("bmP1RjGenzdMXfQYa");
+})();
+
+document.getElementById("quoteForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_lv26hnl",
+    "template_nytm6g9",
+    this
+  )
+  .then(function() {
+    alert("Request sent successfully!");
+  })
+  .catch(function(error) {
+    console.log("FAILED...", error);
+    alert("Error: " + JSON.stringify(error));
+  });
+});
+</script>
+
+
 
 </body>
 </html>
